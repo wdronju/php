@@ -1,0 +1,35 @@
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+.container h2{
+    text-align: center;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    margin-bottom: 20px;
+    
+}
+form{
+    background-color: #fff;
+    padding: 20px;
+}
+ input{
+    padding: 10px;
+    
+    border: 1px solid #ddd;
+}
+input::placeholder{
+    color: #dddddd9e;
+}
+#form input {
+    padding: 10px;
+    min-width: 95%;
+    border: 1px solid #ddd;
+}
+.inputBox{}
