@@ -8,7 +8,7 @@ $displayEmail = "";
 if (isset($_POST['submit'])) {
     $userName = $_POST['username'];
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $password = $_POST['password']; 
 
     if (empty($userName)) {
         $nameError = "Name is Required.";
@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
 
     <section>
         <div class="container">
-            <h2>Lets Make a form</h2>
+            <h2>Build a basic contact form using PHP. Validate and display the submitted data.</h2>
 
             <form id="form" action="" method="POST">
                 <label for="username">User Name<span style='color:red;'>*</span> </label><br>
