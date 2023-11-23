@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-color: rgb(39, 39, 70);
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+.container a:hover{
+    background-color: #fff;
+    color: #111;
+    transition: .3s;
+    cursor: pointer;
+}
+
+/* css for form */
+
+.formbox{
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: #ddd;
+    border-radius: 20px;
+}
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+/* css for form end */
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+/* css for table  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+  .profile{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%!important;
+    border: 3px solid #f8f8f8!important;
+  }
+ 
+  .delete,.edit{
+    background-color: #333333d5;
+    font-size: 10px;
+    padding: 5px 20px!important;
+    display: inline!important;
+    margin: 5px;
+  }
+  .delete{
+    background-color: rgba(255, 0, 0, 0.719);
+  }
+  .delete:hover{
+    background-color: rgb(219, 0, 0)!important;
+    color:#fff!important
+  }
+  .edit:hover{
+    background-color: black!important;
+    color: #fff!important;
+  }
+
+  @media screen and (max-width: 600px) {
+    table {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      width: 100%;
+      display: block;
+      box-sizing: border-box;
+    }
+
+    th, td {
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      text-align: left;
+    }
+  }
