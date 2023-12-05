@@ -8,11 +8,15 @@
 </head>
 <body>
     <header>
-        <h1>CRUD PROJECT</h1>
+        <h1><a style='color:#fff; text-decoration:none;'
+        
+        href="index.php">CRUD PROJECT</a></h1>
         <div class="menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="add.php">Add Info</a></li>
+                <li><a href="update.php">Update Data</a></li>
+                <li><a href="delete_data.php">Delete Data</a></li>
             </ul>
         </div>
     </header>

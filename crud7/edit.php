@@ -30,7 +30,7 @@ include("connect.php");
         ?>
 
 
-        <form action="update.php" method="post">
+        <form action="updatedata.php" method="post">
             <label for="name">Name:</label>
             <input  value="<?php echo $row['id']; ?>" type="hidden" id="id" name="id" >
             <input  value="<?php echo $row['name']; ?>" type="text" id="name" name="name" required>

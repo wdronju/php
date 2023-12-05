@@ -7,6 +7,7 @@ include("connect.php");
 
 $sid = $_GET['id'];
 
+
 $sql = "DELETE FROM students WHERE id = $sid";
 
 $query = mysqli_query($conn, $sql) or die("Delete failed");
